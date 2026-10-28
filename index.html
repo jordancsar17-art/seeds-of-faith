@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Seeds of Faith – Printable Bible Activity Books for Kids</title>
+<meta name="description" content="Printable Bible activity books for kids ages 4–8: coloring pages with memory verses, mazes, dot-to-dot, puzzles and more. Instant PDF download.">
+<meta property="og:title" content="Seeds of Faith – Bible Activity Books for Kids">
+<meta property="og:description" content="Bible stories, coloring, mazes and puzzles. Instant printable PDF.">
+<meta property="og:image" content="capa-mega.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#2a2320;--green:#3E8E2F;--leaf:#69C34B;--coral:#FF6B6B;--sun:#FFD43B;--purple:#7048E8;--sky:#E7F5FF;--cream:#FFF8EC}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Nunito,sans-serif;color:var(--ink);background:var(--cream);overflow-x:hidden}
+h1,h2,h3,.btn,.badge{font-family:Fredoka,sans-serif}
+img{max-width:100%;display:block}
+.wrap{max-width:1100px;margin:0 auto;padding:0 20px}
+section{padding:72px 0;position:relative}
+h2{font-size:clamp(30px,5vw,46px);text-align:center;line-height:1.1;margin-bottom:12px}
+.sub{text-align:center;font-weight:700;font-size:18px;color:#6b5b4b;max-width:620px;margin:0 auto 40px}
+
+/* topo */
+.top{display:flex;align-items:center;justify-content:space-between;padding:16px 20px;max-width:1100px;margin:0 auto}
+.logo{display:flex;align-items:center;gap:8px;font-family:Fredoka;font-weight:700;font-size:26px;color:var(--green)}
+.logo b{color:var(--coral)}
+.btn{display:inline-block;text-decoration:none;font-weight:600;font-size:20px;padding:14px 28px;border-radius:999px;border:3px solid var(--ink);box-shadow:0 5px 0 var(--ink);transition:transform .15s,box-shadow .15s;color:var(--ink);background:var(--sun)}
+.btn:hover{transform:translateY(2px);box-shadow:0 3px 0 var(--ink)}
+.btn.small{font-size:16px;padding:9px 18px;box-shadow:0 4px 0 var(--ink)}
+.btn.purple{background:var(--purple);color:#fff}
+.btn.green{background:var(--leaf)}
+
+/* hero */
+.hero{background:linear-gradient(#BDE7FF,#E7F5FF 55%,var(--cream));padding:40px 0 90px;overflow:hidden}
+.hero .wrap{position:relative;z-index:1;display:grid;grid-template-columns:1.05fr 1fr;gap:30px;align-items:center}
+.hero h1{font-size:clamp(38px,6vw,64px);line-height:1.02;margin:14px 0}
+.hero h1 span{color:var(--coral)}
+.hero p{font-size:19px;font-weight:700;color:#4a3f36;max-width:500px}
+.badge{display:inline-block;background:#fff;border:3px solid var(--ink);border-radius:999px;padding:6px 16px;font-weight:600;font-size:16px}
+.checks{display:flex;flex-wrap:wrap;gap:10px 18px;margin:20px 0 26px;font-weight:800}
+.checks span::before{content:"✓ ";color:var(--green)}
+.books{position:relative;height:520px}
+.book{position:absolute;width:62%;display:block}.book img{border-radius:18px;border:4px solid #fff;box-shadow:0 22px 40px rgba(0,0,0,.25)}
+.tag{position:absolute;left:50%;bottom:-22px;transform:translateX(-50%);white-space:nowrap;font-family:Fredoka;font-weight:700;font-size:22px;padding:8px 20px;border-radius:999px;border:3px solid var(--ink);box-shadow:0 4px 0 var(--ink);color:#fff}
+.tag.green{background:#40A02B}.tag.purple{background:var(--purple)}
+.book.a{left:0;top:40px;transform:rotate(-8deg);animation:floatA 6s ease-in-out infinite}
+.book.b{right:0;top:0;transform:rotate(6deg);animation:floatB 6s ease-in-out infinite;z-index:2}
+@keyframes floatA{50%{transform:rotate(-6deg) translateY(-14px)}}
+@keyframes floatB{50%{transform:rotate(4deg) translateY(-18px)}}
+.cloud{position:absolute;background:#fff;border-radius:999px;opacity:.85;animation:drift 40s linear infinite}
+.cloud::before,.cloud::after{content:"";position:absolute;background:#fff;border-radius:50%}
+.cloud::before{width:55%;height:150%;left:15%;bottom:20%}.cloud::after{width:40%;height:120%;right:12%;bottom:25%}
+@keyframes drift{from{transform:translateX(-200px)}to{transform:translateX(110vw)}}
+.spark{position:absolute;color:var(--sun);font-size:26px;animation:twinkle 2.4s ease-in-out infinite}
+@keyframes twinkle{50%{transform:scale(.5) rotate(45deg);opacity:.4}}
+.wave{position:absolute;left:0;right:0;bottom:-2px;width:100%;height:60px}
+
+/* amostras */
+.pages{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.pg{background:#fff;border:3px solid var(--ink);border-radius:20px;padding:10px;box-shadow:0 8px 0 rgba(0,0,0,.08);transition:transform .25s}
+.pg:nth-child(odd){transform:rotate(-1.5deg)}.pg:nth-child(even){transform:rotate(1.5deg)}
+.pg:hover{transform:rotate(0) scale(1.04)}
+.pg img{border-radius:12px;aspect-ratio:1;object-fit:cover}
+.pg b{display:block;text-align:center;font-family:Fredoka;font-weight:600;font-size:18px;margin-top:8px}
+.acts{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:40px}
+.act{background:#fff;border:3px solid var(--ink);border-radius:18px;padding:12px 18px;font-weight:800;font-size:17px;display:flex;align-items:center;gap:8px}
+.act i{font-style:normal;font-size:24px}
+
+/* ofertas */
+.offers{background:#FFF0F6}
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:stretch}
+.card{background:#fff;border:4px solid var(--ink);border-radius:28px;padding:28px;display:flex;flex-direction:column;position:relative}
+.card.best{border-color:var(--purple);box-shadow:0 0 0 6px #E5DBFF}
+.ribbon{position:absolute;top:-18px;left:50%;transform:translateX(-50%);background:var(--purple);color:#fff;font-family:Fredoka;font-weight:600;padding:6px 18px;border-radius:999px;border:3px solid var(--ink);white-space:nowrap}
+.card img{width:58%;margin:6px auto 16px;border-radius:12px;box-shadow:0 10px 24px rgba(0,0,0,.18)}
+.card h3{font-size:28px;text-align:center}
+.price{text-align:center;font-family:Fredoka;font-weight:700;font-size:54px;margin:6px 0}
+.price small{font-size:20px;color:#888;font-weight:500}
+.card ul{list-style:none;margin:10px 0 24px;flex:1}
+.card li{padding:7px 0;border-bottom:2px dashed #eee;font-weight:700}
+.card li::before{content:"✓ ";color:var(--green);font-weight:900}
+.card li.bonus::before{content:"★ ";color:var(--purple)}
+.card .btn{text-align:center}
+.safe{text-align:center;margin-top:26px;font-weight:800;color:#6b5b4b}
+
+/* depoimento / porquê */
+.why{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.why div{background:#fff;border:3px solid var(--ink);border-radius:22px;padding:22px;text-align:center}
+.why i{font-style:normal;font-size:40px}
+.why h3{font-size:22px;margin:8px 0}
+.why p{font-weight:700;color:#555}
+
+/* faq */
+details{background:#fff;border:3px solid var(--ink);border-radius:18px;padding:16px 20px;margin-bottom:12px;max-width:780px;margin-left:auto;margin-right:auto}
+summary{font-family:Fredoka;font-weight:600;font-size:20px;cursor:pointer}
+details p{margin-top:10px;font-weight:700;color:#555;line-height:1.5}
+
+.final{background:var(--green);color:#fff;text-align:center}
+.final h2{color:#fff}
+.final .sub{color:#E9FAC8}
+footer{text-align:center;padding:26px;font-weight:700;font-size:14px;color:#888}
+
+.reveal{opacity:0;transform:translateY(30px);transition:opacity .7s,transform .7s}
+.reveal.on{opacity:1;transform:none}
+
+@media(max-width:800px){
+ .hero .wrap,.cards,.why{grid-template-columns:1fr}
+ .books{height:380px}
+ .pages{grid-template-columns:1fr 1fr}
+ .top .btn{display:none}
+}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+
+<header class="top">
+ <div class="logo">🌱 Seeds <b>of Faith</b></div>
+ <a class="btn small" href="#offers">Get the books</a>
+</header>
+
+<section class="hero">
+ <div class="cloud" style="width:140px;height:40px;top:60px;animation-delay:-8s"></div>
+ <div class="cloud" style="width:100px;height:30px;top:180px;animation-delay:-25s;animation-duration:55s"></div>
+ <span class="spark" style="left:8%;top:30%">✦</span><span class="spark" style="left:46%;top:12%;animation-delay:.8s">✦</span><span class="spark" style="right:6%;top:70%;animation-delay:1.4s">✦</span>
+ <div class="wrap">
+  <div>
+   <span class="badge">⭐ Ages 4–8 · Printable PDF</span>
+   <h1>Bible stories your kids will <span>love</span> to color!</h1>
+   <p>Coloring pages with memory verses, mazes, dot-to-dot, puzzles and more. Help little hearts grow in God's Word, one page at a time.</p>
+   <div class="checks"><span>Instant download</span><span>Print unlimited</span><span>US Letter &amp; A4</span></div>
+   <a class="btn" href="#offers">See the books ↓</a>
+  </div>
+  <div class="books">
+   <a class="book a" href="https://pay.hotmart.com/C108231842P"><img src="capa-essential.webp" alt="Seeds of Faith Essential Edition cover"><span class="tag green">Essential · $7</span></a>
+   <a class="book b" href="https://pay.hotmart.com/V108231939F"><img src="capa-mega.webp" alt="Seeds of Faith Ultimate Mega Bundle cover"><span class="tag purple">Mega Bundle · $17</span></a>
+  </div>
+ </div>
+ <svg class="wave" viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M0,30 C240,60 480,0 720,30 C960,60 1200,0 1440,30 L1440,60 L0,60Z" fill="#FFF8EC"/></svg>
+</section>
+
+<section>
+ <div class="wrap">
+  <h2 class="reveal">A peek inside 👀</h2>
+  <p class="sub reveal">Every coloring page tells a Bible story and comes with a short verse to read together.</p>
+  <div class="pages">
+   <div class="pg reveal"><img src="p01.webp" alt="Creation coloring page" loading="lazy"><b>God Made Everything</b></div>
+   <div class="pg reveal"><img src="p02.webp" alt="Noah's ark coloring page" loading="lazy"><b>Two by Two</b></div>
+   <div class="pg reveal"><img src="p08.webp" alt="David and Goliath coloring page" loading="lazy"><b>David and Goliath</b></div>
+   <div class="pg reveal"><img src="p10.webp" alt="Jonah coloring page" loading="lazy"><b>Jonah and the Big Fish</b></div>
+   <div class="pg reveal"><img src="p12.webp" alt="Nativity coloring page" loading="lazy"><b>Jesus Is Born</b></div>
+   <div class="pg reveal"><img src="p17.webp" alt="Jesus and the children coloring page" loading="lazy"><b>Jesus Loves the Children</b></div>
+  </div>
+  <div class="acts reveal">
+   <div class="act"><i>🖍️</i>Coloring pages</div><div class="act"><i>🌀</i>Mazes</div><div class="act"><i>🔢</i>Dot-to-dot</div>
+   <div class="act"><i>🔎</i>Word search</div><div class="act"><i>👀</i>Spot the difference</div><div class="act"><i>✂️</i>Cut &amp; paste puzzles</div>
+   <div class="act"><i>🃏</i>Verse flashcards</div><div class="act"><i>🔖</i>Bookmarks</div><div class="act"><i>🏆</i>Certificate</div>
+  </div>
+ </div>
+</section>
+
+<section class="offers" id="offers">
+ <div class="wrap">
+  <h2 class="reveal">Choose your book 📚</h2>
+  <p class="sub reveal">Instant PDF download. Print at home as many times as you like.</p>
+  <div class="cards">
+   <div class="card reveal">
+    <img src="capa-essential.webp" alt="Essential Edition">
+    <h3>Essential Edition</h3>
+    <div class="price">$7</div>
+    <ul>
+     <li>36 printable pages</li>
+     <li>20 Bible story coloring pages</li>
+     <li>Memory verse on every story</li>
+     <li>6 mazes</li>
+     <li>6 dot-to-dot</li>
+     <li>Drawing &amp; prayer page</li>
+     <li>Certificate of Achievement</li>
+    </ul>
+    <!-- COLE AQUI O LINK DE PAGAMENTO DO ESSENTIAL (troque LINK_ESSENTIAL) -->
+    <a class="btn green" href="https://pay.hotmart.com/C108231842P">Get Essential – $7</a>
+   </div>
+   <div class="card best reveal">
+    <div class="ribbon">⭐ BEST VALUE</div>
+    <img src="capa-mega.webp" alt="Ultimate Mega Bundle">
+    <h3>Ultimate Mega Bundle</h3>
+    <div class="price">$17 <small>79 pages</small></div>
+    <ul>
+     <li>35 Bible story coloring pages</li>
+     <li>10 mazes &amp; 8 dot-to-dot</li>
+     <li>6 picture word searches</li>
+     <li>6 spot-the-difference games</li>
+     <li>6 color, cut &amp; paste puzzles</li>
+     <li class="bonus">BONUS: 12 verse flashcards</li>
+     <li class="bonus">BONUS: 8 bookmarks to color</li>
+     <li class="bonus">BONUS: Certificate of Achievement</li>
+    </ul>
+    <!-- COLE AQUI O LINK DE PAGAMENTO DO MEGA (troque LINK_MEGA) -->
+    <a class="btn purple" href="https://pay.hotmart.com/V108231939F">Get the Mega Bundle – $17</a>
+   </div>
+  </div>
+  <p class="safe">🔒 Secure checkout by Hotmart · 7-day money-back guarantee</p>
+ </div>
+</section>
+
+<section>
+ <div class="wrap">
+  <h2 class="reveal">Why families love it 💛</h2>
+  <p class="sub reveal">Made for Sunday School, homeschool and quiet time at home.</p>
+  <div class="why">
+   <div class="reveal"><i>📖</i><h3>Real Bible stories</h3><p>From Creation to Easter, every page teaches a story and a verse kids can remember.</p></div>
+   <div class="reveal"><i>🖨️</i><h3>Print again &amp; again</h3><p>One purchase, unlimited prints for siblings, friends or a whole class.</p></div>
+   <div class="reveal"><i>🧠</i><h3>Fun learning</h3><p>Coloring, mazes and puzzles build fine motor skills while kids grow in faith.</p></div>
+  </div>
+ </div>
+</section>
+
+<section style="padding-top:0">
+ <div class="wrap">
+  <h2 class="reveal">Questions? 🙋</h2>
+  <details><summary>Is this a physical book?</summary><p>No. It's a digital PDF you download instantly and print at home or at any print shop.</p></details>
+  <details><summary>What paper size is it?</summary><p>US Letter (8.5 × 11 in). It also prints perfectly on A4 using "Fit to page".</p></details>
+  <details><summary>Can I print it more than once?</summary><p>Yes! Print as many copies as you need for your family, homeschool or Sunday School class.</p></details>
+  <details><summary>What ages is it for?</summary><p>Kids ages 4 to 8. The pages have large areas to color and simple, friendly activities.</p></details>
+  <details><summary>How do I get my book?</summary><p>Right after payment you receive an email with access to download your PDF.</p></details>
+ </div>
+</section>
+
+<section class="final">
+ <div class="wrap">
+  <h2 class="reveal">Plant a seed of faith today 🌱</h2>
+  <p class="sub reveal">Instant download. Hours of fun learning about God's love.</p>
+  <a class="btn" href="#offers">Choose your book</a>
+ </div>
+</section>
+
+<footer>© 2026 Seeds of Faith · Bible verses from the King James Version</footer>
+
+<script>
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('on');io.unobserve(e.target)}}),{threshold:.15});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
